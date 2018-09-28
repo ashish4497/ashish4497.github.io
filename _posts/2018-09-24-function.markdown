@@ -3,9 +3,7 @@ layout: post
 title:  "understanding javascript function"
 categories: jekyll update
 ---
-
-Alt-H1
-======Function
+##Function
 
 <p> Imagine you live in an village without tap water. To get water, you need to take a empty bucket, head to the well in the middle of the village, draw water from the well and head back home.You need to draw water from this well multiple times a day.<br> It’s a difficult to say “I’m going to take an empty bucket, go to the well, draw water and bring back home” every time you explain what you’re doing.<span>To shorten it, you can say you’re going to “draw water”.And  you’ve created a function</span>The basic structure of function
 </p>
@@ -13,28 +11,25 @@ Alt-H1
 
 <script src="https://gist.github.com/ashish4497/a231e340d0f567ecbb0d1a1af4566f54.js"></script>
 
-Alt-H1
-======Declaring Function
+##Declaring Function
 
 <p>
-	...* function is a keyword of javascript
-	...* functionName is the name of the function
-    ...* parameter is use to assign the value to the function
-## Using Function
+	*function is a keyword of javascript
+	*functionName is the name of the function
+    *parameter is use to assign the value to the function
+ ###Using Function
 
 #The example of using the function
 <script src="https://gist.github.com/ashish4497/4c8578f783861da0630d813a93af6e1d.js"></script>
 
 
-Alt-H1
-======function as expression
+##function as expression
 
 <p>In a Javascript,The function expression had stored in variable,the variable is used as function .Functions do not need function name. They are always called with variable name.The example of function as expression </p>
 
 <script src="https://gist.github.com/ashish4497/8e4a8cf38ab01144636c6aa756523eb1.js"></script>
 
-Alt-H1
-======Anonymus function
+##Anonymus function
 
 A Function Expressions defines a named or An anonymous function that has no name.The anonymus function are created at run time.The function operator can be used anywhere that it’s valid to use an expression. The anonymus function start with 'var'</p>
 
@@ -42,8 +37,7 @@ A Function Expressions defines a named or An anonymous function that has no name
 
 <script src="https://gist.github.com/ashish4497/5e5e45a15ce4ea9ae326f12a93992aac.js"></script>
 
-Alt-H1
-======IIFE
+##IIFE
 <p>IIFE stands for Immediately Invoked Function Expression.The primary reason to use an IIFE is to obtain data privacy.Any variables declared within the IIFE cannot be accessed by the outside world.</p>
 
 
