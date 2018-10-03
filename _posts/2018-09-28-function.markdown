@@ -1,11 +1,12 @@
 ---
-layout: post
-title:  "understanding javascript function"
-categories: jekyll update
+layout:post
+title:"understanding javascript function"
+categories:jekyll update
 ---
-#Function#
 
-<p> Imagine you live in an village without tap water. To get water, you need to take a empty bucket, head to the well in the middle of the village, draw water from the well and head back home.You need to draw water from this well multiple times a day.<br> It’s a difficult to say “I’m going to take an empty bucket, go to the well, draw water and bring back home” every time you explain what you’re doing.<span>To shorten it, you can say you’re going to “draw water”.And  you’ve created a function</span>The basic structure of function
+#Function# 
+
+<p> Imagine you live in an village without tap water. To get water, you need to take a empty bucket, head to the well in the middle of the village, draw water from the well and head back home.You need to draw water from this well multiple times a day. It’s a difficult to say “I’m going to take an empty bucket, go to the well, draw water and bring back home” every time you explain what you’re doing.To shorten it, you can say you’re going to “draw water”.And  you’ve created a functionThe basic structure of function
 </p>
 
 
@@ -14,17 +15,15 @@ categories: jekyll update
 #Declaring Function#
 
 <p>
-	1.function is a keyword of javascript
-	2.functionName is the name of the function
-    3.parameter is use to assign the value to the function
+1 function is a keyword of javascript<br>
+2 functionName is the name of the function<br>
+3 parameter is use to assign the value to the function<br>
+</p>
+##The example of using the function
 
- ##Using Function
-
-#The example of using the function
 <script src="https://gist.github.com/ashish4497/4c8578f783861da0630d813a93af6e1d.js"></script>
 
-
-#function as expression
+##Function as expression
 
 <p>In a Javascript,The function expression had stored in variable,the variable is used as function .Functions do not need function name. They are always called with variable name.The example of function as expression </p>
 
@@ -39,6 +38,7 @@ categories: jekyll update
 <script src="https://gist.github.com/ashish4497/5e5e45a15ce4ea9ae326f12a93992aac.js"></script>
 
 #IIFE
+
 <p>IIFE stands for Immediately Invoked Function Expression.The primary reason to use an IIFE is to obtain data privacy.Any variables declared within the IIFE cannot be accessed by the outside world.</p>
 
 
