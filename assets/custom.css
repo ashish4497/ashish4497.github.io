@@ -27,7 +27,7 @@ body {
   font-size: 14px;
   font-weight: normal;
   -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+  box-sizing: border-box;
 }
 .wrapper {
 	margin: 0 auto;
@@ -116,9 +116,9 @@ a{
 	display: -ms-grid;
 	display: grid;
 	-ms-grid-columns:(1fr)[3];
-	    grid-template-columns:repeat(3,1fr);
+	grid-template-columns:repeat(3,1fr);
 	grid-gap:30px;
-	padding: 30px;
+	padding :30px;
 }
 .project-detail img:hover {
 	-webkit-transition:all 1s ease-in-out;
@@ -132,7 +132,7 @@ a{
 	width:100%;
 	height:300px;
   -webkit-box-shadow: 10px 15px #D3D3D3;
-          box-shadow: 10px 15px #D3D3D3;
+  box-shadow: 10px 15px #D3D3D3;
 }
 .image:hover {
 	opacity: 0.3;
@@ -304,4 +304,3 @@ a{
 		    grid-template-columns: auto;
 		grid-gap: 20px;
 	}
-};
