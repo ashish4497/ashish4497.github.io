@@ -103,12 +103,13 @@ a{
 	font-weight: 600;
 }
 .intro-about {
-	font-size:18px;
+	font-size:22px;
 	width:50%;
 	margin: 0 auto;
 	padding : 1.5rem;
 	font-family: serif;
-	/* text-align: cente; */
+	line-height: 22px;
+	text-align: center;
 }
 /*=====================
 	projects
@@ -204,6 +205,9 @@ a{
 	text-align: center;
 	display: inline-block;
 	margin:10px;
+}
+.address {
+	font-size: 16px;
 }
 .fab {
 	color: #fff;
